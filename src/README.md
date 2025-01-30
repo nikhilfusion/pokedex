@@ -80,5 +80,5 @@ I created a list of pokemons and a modal for the details of a pokemon. I used th
 
 PokeMon List : http://localhost:3000/pokemon
 
-PokeMon Details : http://localhost:3000/pokemon/details?id=1&name=bulbasaur
+PokeMon Details : http://localhost:3000/pokemon/item-details?id=1&name=bulbasaur
 

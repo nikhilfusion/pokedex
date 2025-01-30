@@ -20,7 +20,7 @@ export const Nav = () => {
           <NavOption to="/" icon="home" name="Home">
             Home
           </NavOption>
-          <NavOption to="/pokemon" icon="list" name="List">
+          <NavOption to="/pokemon" icon="catching_pokemon" name="Pokemon List">
             List
           </NavOption>
         </div>

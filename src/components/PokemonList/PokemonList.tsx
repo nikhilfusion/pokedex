@@ -25,7 +25,7 @@ export const PokemonList = () => {
   };
 
   const handleItemClick = (id: string, name: string) => {
-    navigate(`/pokemon/details?id=${id}&name=${name}`);
+    navigate(`/pokemon/item-details?id=${id}&name=${name}`);
   };  
 
 

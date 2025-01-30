@@ -5,7 +5,7 @@ import { LayoutProvider } from '../contexts';
 import { Nav } from '../components';
 import { ApolloProvider } from '@apollo/client';
 import { client } from './client';
-import { ListPage, Home, PokemonDetails } from '../screens';
+import { ListPage, Home, PokemonDetails, PokemonModal } from '../screens';
 
 function App() {
   const classes = useStyles();
@@ -21,6 +21,7 @@ function App() {
                   <Route path="/" element={<Home />} />
                   <Route path="/pokemon" element={<ListPage />} />
                   <Route path="/pokemon/details" element={<PokemonDetails />} />
+                  <Route path="/pokemon/item-details" element={<PokemonModal />} />
                 </Routes>
               </div>
             </div>

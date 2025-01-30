@@ -33,16 +33,16 @@ export const PokemonDetails = () => {
             <img src={pokemon.image} alt={pokemon.name} className={classes.image} onClick={showImageModal}  />
           </div>
           <div className={classes.details}>
-            <p><strong>Number:</strong> {pokemon.number}</p>
-            <p><strong>Weight:</strong> {pokemon.weight.minimum} - {pokemon.weight.maximum}</p>
-            <p><strong>Height:</strong> {pokemon.height.minimum} - {pokemon.height.maximum}</p>
-            <p><strong>Classification:</strong> {pokemon.classification}</p>
-            <p><strong>Types:</strong> {pokemon.types.join(', ')}</p>
-            <p><strong>Resistant:</strong> {pokemon.resistant.join(', ')}</p>
-            <p><strong>Weaknesses:</strong> {pokemon.weaknesses.join(', ')}</p>
-            <p><strong>Flee Rate:</strong> {pokemon.fleeRate}</p>
-            <p><strong>Max CP:</strong> {pokemon.maxCP}</p>
-            <p><strong>Max HP:</strong> {pokemon.maxHP}</p>
+            <p><strong>Number: </strong> {pokemon.number}</p>
+            <p><strong>Weight: </strong> {pokemon.weight.minimum} - {pokemon.weight.maximum}</p>
+            <p><strong>Height: </strong> {pokemon.height.minimum} - {pokemon.height.maximum}</p>
+            <p><strong>Classification: </strong> {pokemon.classification}</p>
+            <p><strong>Types: </strong> {pokemon.types.join(', ')}</p>
+            <p><strong>Resistant: </strong> {pokemon.resistant.join(', ')}</p>
+            <p><strong>Weaknesses: </strong> {pokemon.weaknesses.join(', ')}</p>
+            <p><strong>Flee Rate: </strong> {pokemon.fleeRate}</p>
+            <p><strong>Max CP: </strong> {pokemon.maxCP}</p>
+            <p><strong>Max HP: </strong> {pokemon.maxHP}</p>
           </div>
         </div>
         <Button type="primary" onClick={() => navigate('/pokemon')} className={classes.backButton}>
